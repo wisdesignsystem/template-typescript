@@ -1,4 +1,12 @@
 export default {
+  // 项目类型
+  mode: '<%= config.mode %>',
+
+  <% if (config.mode === 'library') { %>
+  // 库项目名称
+  libraryName: '<%= config.name %>',
+  <% } %>
+
   // 设置别名
   alias: {},
   // wis默认会排除所有node_modules编译
