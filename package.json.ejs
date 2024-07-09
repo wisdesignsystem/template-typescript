@@ -21,12 +21,12 @@
   "devDependencies": {
     "@babel/runtime": "7.16.7",
     "@babel/runtime-corejs3": "7.16.7",
-    "<%= packages['@wisdesign/cli'].name %>": "<%= packages['@wisdesign/cli'].version %>",
-    "<%= packages['@wisdesign/eslint-config'].name %>": "<%= packages['@wisdesign/eslint-config'].version %>",
-    "<%= packages['@wisdesign/prettier-config'].name %>": "<%= packages['@wisdesign/prettier-config'].version %>",
-    "<%= packages['@wisdesign/plugin-typescript'].name %>": "<%= packages['@wisdesign/plugin-typescript'].version %>",
+    "@wisdesign/cli": "<%= packages['@wisdesign/cli'] %>",
+    "@wisdesign/eslint-config": "<%= packages['@wisdesign/eslint-config'] %>",
+    "@wisdesign/prettier-config": "<%= packages['@wisdesign/prettier-config'] %>",
+    "@wisdesign/plugin-typescript": "<%= packages['@wisdesign/plugin-typescript'] %>",
     <% if (config.style === 'less') { %>
-    "<%= packages['@wisdesign/plugin-less'].name %>": "<%= packages['@wisdesign/plugin-less'].version %>",
+    "@wisdesign/plugin-less": "<%= packages['@wisdesign/plugin-less'] %>",
     <% } %>
     "@types/react": "18.0.15",
     "@types/react-dom": "18.0.6",
