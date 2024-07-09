@@ -5,6 +5,7 @@
 node_modules
 .DS_Store
 
+
 # 应用编译时自动生成的目录
 dist
 .wis
